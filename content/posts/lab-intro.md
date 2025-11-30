@@ -52,6 +52,7 @@ All the best.
 > Anatomy of a Black Hole (Simulation)
 
 ![BH](/images/BH_labeled.jpg)
-*Annotated visualization of the Schwarzschild metric, highlighting the Photon Ring and Doppler Beaming effects.* *Image Credit: NASA’s Goddard Space Flight Center / Jeremy Schnittman* ```
+*Annotated visualization of the Schwarzschild metric, highlighting the Photon Ring and Doppler Beaming effects.*
+*Image Credit: NASA’s Goddard Space Flight Center / Jeremy Schnittman*
 
 
