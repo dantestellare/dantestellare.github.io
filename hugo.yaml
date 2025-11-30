@@ -1,4 +1,6 @@
 baseURL: "https://dantestellare.github.io/"
+baseURL: "https://dantestellare.github.io/"
+publishDir: "docs"
 languageCode: "en-us"
 title: "Dante Stellare"
 theme: "PaperMod"
