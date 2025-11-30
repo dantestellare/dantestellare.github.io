@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Lab on Dante Stellare</title>
+    <link>https://dantestellare.github.io/tags/lab/</link>
+    <description>Recent content in Lab on Dante Stellare</description>
+    <generator>Hugo -- 0.146.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 30 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://dantestellare.github.io/tags/lab/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Lab: Genesis</title>
+      <link>https://dantestellare.github.io/posts/lab-intro/</link>
+      <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://dantestellare.github.io/posts/lab-intro/</guid>
+      <description>&lt;h2 id=&#34;the-philosophy-of-the-lab&#34;&gt;The Philosophy of the Lab&lt;/h2&gt;
+&lt;p&gt;After years of intense work and research, I&amp;rsquo;m confident that I now have the means to share my most ambitious and passionate projects with you!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The Lab&lt;/strong&gt; will be exactly what its name implies: &lt;em&gt;our comfortable laboratory to examine, create, and break things!&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;I will not dwell on this section, but if you&amp;rsquo;re curious about who I am and what I do, and have a few minutes of free time at hand, you just might have a look at the &amp;ldquo;About&amp;rdquo; section.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,79 @@
+baseURL: "https://dantestellare.github.io/"
+languageCode: "en-us"
+title: "Dante Stellare"
+theme: "PaperMod"
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: "Dante Stellare"
+  description: "Computer Science. Mathematics. Physical Cult."
+  author: "Dante Stellare"
+  defaultTheme: "dark"
+  disableThemeToggle: false
+
+  # The "Hero" Section (Homepage)
+  profileMode:
+    enabled: true
+    title: "Dante Stellare"
+    subtitle: |
+        **Computer Science & Mathematics | Astrophysics | Calisthenics**
+
+        Welcome to the HQ.
+
+        I am building at the intersection of computational reasoning and physical discipline.
+
+        This is where I document the process.
+    imageUrl: "https://github.com/dantestellare.png"
+    imageTitle: "Dante Stellare"
+    imageWidth: 180
+    imageHeight: 180
+    buttons:
+      - name: The Lab
+        url: tags/lab
+      - name: The Temple
+        url: tags/temple
+      - name: About
+        url: /about
+
+  # Social Icons
+  socialIcons:
+    - name: linkedin
+      url: "https://www.linkedin.com/in/dantestellare/"
+    - name: github
+      url: "https://github.com/dantestellare"
+    - name: instagram
+      url: "https://instagram.com/dantestellare"
+    - name: email
+      url: "mailto:dantestellare@gmail.com"
+
+  # Performance & Features
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+
+# The Navigation Structure
+menu:
+  main:
+    - identifier: lab
+      name: The Lab
+      url: /tags/lab/
+      weight: 10
+    - identifier: temple
+      name: The Temple
+      url: /tags/temple/
+      weight: 20
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 30

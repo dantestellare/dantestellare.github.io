@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Dante Stellare</title>
+    <link>https://dantestellare.github.io/tags/</link>
+    <description>Recent content in Tags on Dante Stellare</description>
+    <generator>Hugo -- 0.146.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 30 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://dantestellare.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Calisthenics</title>
+      <link>https://dantestellare.github.io/tags/calisthenics/</link>
+      <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://dantestellare.github.io/tags/calisthenics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lab</title>
+      <link>https://dantestellare.github.io/tags/lab/</link>
+      <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://dantestellare.github.io/tags/lab/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Physics</title>
+      <link>https://dantestellare.github.io/tags/physics/</link>
+      <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://dantestellare.github.io/tags/physics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Simulation</title>
+      <link>https://dantestellare.github.io/tags/simulation/</link>
+      <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://dantestellare.github.io/tags/simulation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Temple</title>
+      <link>https://dantestellare.github.io/tags/temple/</link>
+      <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://dantestellare.github.io/tags/temple/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
