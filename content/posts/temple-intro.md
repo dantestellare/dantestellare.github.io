@@ -5,7 +5,7 @@ tags: ["Temple", "Calisthenics"]
 author: "Dante"
 draft: false
 cover:
-    image: "images/IMG_3714.jpg" # This sets the "Thumbnail" for the post!
+    image: "images/IMG_3665.jpg" # This sets the "Thumbnail" for the post!
     alt: "Portfolio Shot"
     caption: "The synthesis of strength and aesthetics."
     relative: false
@@ -50,4 +50,4 @@ Let's do this! Welcome once more.
 ### Visual Archive
 > "We are what we repeatedly do. Excellence, then, is not an act, but a habit." — Aristotle
 
-![Shot](/images/IMG_3665.jpg)
+![Shot](/images/IMG_3714.jpg)
