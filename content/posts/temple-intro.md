@@ -33,6 +33,11 @@ Let's do this! Welcome once more.
 * **Weight:** 93kg
 
 ### The Skill Stack (Goals)
+
+My fundamentals are solid, and I'm currently working on the One Arm Chin Up, Freestanding Handstand Push Up, and Full Front Lever, along with upping my 1RM at the squat, which currently sits at 160kg.
+
+To maintain accountability and track progress transparently, below is the detailed status of my current skill stack:
+
 | Skill | Status | Notes |
 | :--- | :--- | :--- |
 | **Planche** | 🔴 Locked | ultimate goal |
