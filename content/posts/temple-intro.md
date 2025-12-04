@@ -40,19 +40,21 @@ To maintain accountability and track progress transparently, below is the detail
 
 | Skill | Status | Notes |
 | :--- | :--- | :--- |
-| **Planche** | 🔴 Locked | ultimate goal |
-| **One-Arm Chin-Up** | 🟡 Loading | building unilateral strength |
-| **Front Lever** | 🟡 Loading | working on half-lay holds and raises |
-| **Freestanding HSPU** | 🟢 Unlocked | training negatives for multiple reps |
-| **Handstand** | 🟢 Unlocked | increasing hold times |
-| **20 Clean RTO Dips** | 🟢 Unlocked | demonstrates solid fundamentals |
-| **20 Clean Pull-Ups** | 🟢 Unlocked | demonstrates solid fundamentals |
-| **One-Arm Push-Up** | 🟢 Unlocked | will eventually be a main movement |
-| **Rings/Bar Muscle Ups** | 🟢 Unlocked | reps and form to be improved |
-| **L-Sit** | 🟢 Unlocked | demonstrates solid fundamentals |
-| **160kg Back Squat** | 🟢 Unlocked | working on reps |
+| **Planche** | 🔴 Locked | Ultimate goal |
+| **One-Arm Handstand** | 🔴 Locked | Ultimate goal |
+| **One-Arm Chin-Up** | 🟡 Loading | Building unilateral strength |
+| **Front Lever** | 🟡 Loading | Working on half-lay holds and raises |
+| **Freestanding HSPU** | 🟢 Unlocked | Working on achieving multiple reps |
+| **160kg Back Squat** | 🟢 Unlocked | 1RPM |
+| **One-Arm Push-Up** | 🟢 Unlocked | Maintaining unilateral base |
+| **Rings/Bar Muscle Ups** | 🟢 Unlocked | On maintenance for perfect muscle-up |
+| **Handstand** | 🟢 Unlocked | Increasing hold times |
+| **20 Clean RTO Dips** | 🟢 Unlocked | Fundamentals proficiency |
+| **20 Clean Pull-Ups** | 🟢 Unlocked | Fundamentals proficiency |
+| **Pistol Squat** | 🟢 Unlocked | Fundamentals proficiency |
+| **L-Sit** | 🟢 Unlocked | Fundamentals proficiency |
 
 ### Visual Archive
-> "We are what we repeatedly do. Excellence, then, is not an act, but a habit." — Aristotle
+> "We are what we repeatedly do. Excellence, then, is not an act, but a habit." - Aristotle
 
 ![Shot](/images/IMG_3714.jpg)

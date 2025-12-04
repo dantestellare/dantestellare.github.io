@@ -1,5 +1,4 @@
 baseURL: "https://dantestellare.github.io/"
-baseURL: "https://dantestellare.github.io/"
 publishDir: "docs"
 languageCode: "en-us"
 title: "Dante Stellare"
@@ -27,7 +26,7 @@ params:
     enabled: true
     title: "Dante Stellare"
     subtitle: |
-        **Computer Science & Mathematics | Astrophysics | Calisthenics**
+        **Data Science | Astrophysics | Calisthenics**
 
         Welcome to the HQ.
 

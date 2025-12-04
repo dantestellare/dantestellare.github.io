@@ -7,7 +7,7 @@ draft: false
 cover:
     image: "images/Profile Picture.jpg" 
     alt: "Introductory Profile Picture"
-    caption: "Meet Dante, your fellow researcher and teacher."
+    caption: "Meet Dante, your fellow researcher and learner."
     relative: false
 ---
 
