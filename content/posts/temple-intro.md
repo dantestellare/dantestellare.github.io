@@ -33,36 +33,26 @@ Let's do this! Welcome once more.
 
 ---
 
-### Current Metrics
-* **Training Style:** High-Intensity Calisthenics, Progression Based Approach
+### Metrics (As of Early 2026)
+* **Training Styles:** High-Intensity Calisthenics, Powerlifting Strength & Tricking
 * **Height:** 1.88m
 * **Weight:** 95kg
 
-### The Skill Stack (Goals)
+### The Skill Hierarchy (As of Early 2026)
 
-My fundamentals are solid, and I'm currently working on the One-Arm Pull-Up, Freestanding Handstand Push-Up, and Full Front Lever, along with upping my 1RM at the squat, which currently sits at 160kg.
+**[ Unlocked ] - The Foundation**
+* Freestanding Handstand & HSPU
+* Full Back Lever & One-Arm Push-Up
+* Rings & Bar Muscle-Ups
+* Heavyweight Basics: 160kg Squat, 60kg Weighted Dip, 50kg Weighted Pull-Up
 
-To maintain accountability and track progress transparently, below is the detailed status of my current skill stack (as of february 2026):
+**[ Loading ] - The Current Frontier**
+* One-Arm Pull-Up
+* Full Front Lever
 
-| Skill | Status |
-| :--- | :--- |
-| **Iron Cross** | 🔴 Locked |
-| **Maltese** | 🔴 Locked |
-| **Victorian Cross** | 🔴 Locked |
-| **Full Planche** | 🔴 Locked |
-| **One-Arm Handstand** | 🔴 Locked |
-| **One-Arm Pull-Up** | 🟡 Loading |
-| **Full Front Lever** | 🟡 Loading |
-| **Full Back Lever** | 🟢 Unlocked |
-| **Freestanding HSPU** | 🟢 Unlocked |
-| **Freestanding Handstand** | 🟢 Unlocked |
-| **160kg Back Squat** | 🟢 Unlocked |
-| **60KG Weighted Dip** | 🟢 Unlocked |
-| **50KG Weighted Pull-Up** | 🟢 Unlocked |
-| **One-Arm Push-Up** | 🟢 Unlocked |
-| **Rings/Bar Muscle-Ups** | 🟢 Unlocked |
-| **Pistol Squat** | 🟢 Unlocked |
-| **L-Sit** | 🟢 Unlocked | 
+**[ Locked ] - The Titan Tier**
+* Full Planche & One-Arm Handstand
+* The Ring Trinity: Iron Cross, Maltese, Victorian Cross
 
 ---
 

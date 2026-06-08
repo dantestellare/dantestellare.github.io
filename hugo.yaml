@@ -1,7 +1,7 @@
 baseURL: "https://dantestellare.github.io/"
 publishDir: "docs"
 languageCode: "en-us"
-title: "Dante Stellare"
+title: "Dante Stellare | Titan's HQ"
 theme: "PaperMod"
 
 enableRobotsTXT: true
@@ -20,6 +20,8 @@ params:
   author: "Dante Stellare"
   defaultTheme: "dark"
   disableThemeToggle: false
+  assets:
+    favicon: "/images/titan-icon.svg"
 
   # The "Hero" Section (Homepage)
   profileMode:
@@ -33,8 +35,8 @@ params:
         I am building at the intersection of computational reasoning and physical discipline.
 
         This is where I document the process.
-    imageUrl: "https://github.com/dantestellare.png"
-    imageTitle: "Dante Stellare"
+    imageUrl: "/images/titan-icon.svg"
+    imageTitle: "Project Titan"
     imageWidth: 180
     imageHeight: 180
     buttons:

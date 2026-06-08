@@ -1,0 +1,212 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+
+    <!-- Deep cosmic void background -->
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#0f0218"/>
+      <stop offset="40%"  stop-color="#07010e"/>
+      <stop offset="100%" stop-color="#010108"/>
+    </radialGradient>
+
+    <!-- Very faint ambient nucleus bloom across entire canvas -->
+    <radialGradient id="ambientBloom" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#f43f5e" stop-opacity="0.07"/>
+      <stop offset="55%"  stop-color="#f43f5e" stop-opacity="0.02"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Vignette -->
+    <radialGradient id="vig" cx="50%" cy="50%" r="58%">
+      <stop offset="28%"  stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.78"/>
+    </radialGradient>
+
+    <!-- Diffraction spike: horizontal -->
+    <linearGradient id="spikeH" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="42%"  stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="50%"  stop-color="#ffffff" stop-opacity="0.65"/>
+      <stop offset="58%"  stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <!-- Diffraction spike: vertical -->
+    <linearGradient id="spikeV" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="42%"  stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="50%"  stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="58%"  stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Blur filters -->
+    <filter id="f2"  x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="f5"  x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="f10" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="10"/></filter>
+    <filter id="f22" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="22"/></filter>
+    <filter id="f45" x="-90%" y="-90%" width="280%" height="280%"><feGaussianBlur stdDeviation="45"/></filter>
+    <filter id="f80" x="-120%" y="-120%" width="340%" height="340%"><feGaussianBlur stdDeviation="80"/></filter>
+
+    <!-- Rounded icon clip -->
+    <clipPath id="icon">
+      <rect x="0" y="0" width="1024" height="1024" rx="225" ry="225"/>
+    </clipPath>
+
+  </defs>
+
+  <g clip-path="url(#icon)">
+
+    <!-- ── 1. Deep space background ── -->
+    <rect width="1024" height="1024" fill="url(#bg)"/>
+    <rect width="1024" height="1024" fill="url(#ambientBloom)"/>
+
+    <!-- ── 2. Distant starfield ── -->
+    <g>
+      <!-- white stars -->
+      <circle cx="134" cy="162" r="2.1" fill="#ffffff" opacity="0.62" filter="url(#f2)"/>
+      <circle cx="228" cy="840" r="1.9" fill="#ffffff" opacity="0.52" filter="url(#f2)"/>
+      <circle cx="762" cy="190" r="2.0" fill="#ffffff" opacity="0.48" filter="url(#f2)"/>
+      <circle cx="920" cy="440" r="1.6" fill="#ffffff" opacity="0.58" filter="url(#f2)"/>
+      <circle cx="412" cy="910" r="1.8" fill="#ffffff" opacity="0.46" filter="url(#f2)"/>
+      <circle cx="172" cy="390" r="1.5" fill="#ffffff" opacity="0.40" filter="url(#f2)"/>
+      <circle cx="310" cy="72"  r="1.4" fill="#ffffff" opacity="0.48" filter="url(#f2)"/>
+      <circle cx="80"  cy="302" r="1.7" fill="#ffffff" opacity="0.38" filter="url(#f2)"/>
+      <!-- rose accent stars -->
+      <circle cx="876" cy="138" r="1.5" fill="#f87171" opacity="0.72" filter="url(#f2)"/>
+      <circle cx="106" cy="652" r="1.4" fill="#f87171" opacity="0.50" filter="url(#f2)"/>
+      <circle cx="942" cy="600" r="1.3" fill="#f87171" opacity="0.46" filter="url(#f2)"/>
+      <!-- cyan accent stars -->
+      <circle cx="650" cy="88"  r="1.3" fill="#67e8f9" opacity="0.52" filter="url(#f2)"/>
+      <circle cx="940" cy="780" r="1.5" fill="#67e8f9" opacity="0.46" filter="url(#f2)"/>
+      <!-- violet accent stars -->
+      <circle cx="896" cy="790" r="1.5" fill="#c084fc" opacity="0.78" filter="url(#f2)"/>
+      <circle cx="858" cy="328" r="1.4" fill="#c084fc" opacity="0.58" filter="url(#f2)"/>
+    </g>
+
+    <!-- ════════════════════════════════════════════
+         ORBIT 1 — Horizontal — Crimson #f43f5e
+         Electron at (710, 565) — right-center
+         ════════════════════════════════════════════ -->
+
+    <!-- Bloom -->
+    <ellipse cx="512" cy="512" rx="296" ry="80" fill="none"
+      stroke="#f43f5e" stroke-width="55" stroke-opacity="0.045"
+      filter="url(#f45)"/>
+    <!-- Wide glow -->
+    <ellipse cx="512" cy="512" rx="290" ry="78" fill="none"
+      stroke="#f43f5e" stroke-width="18" stroke-opacity="0.22"
+      filter="url(#f22)"/>
+    <!-- Tight glow -->
+    <ellipse cx="512" cy="512" rx="288" ry="77" fill="none"
+      stroke="#f43f5e" stroke-width="6"  stroke-opacity="0.50"
+      filter="url(#f10)"/>
+    <!-- Sharp orbit line -->
+    <ellipse cx="512" cy="512" rx="286" ry="76" fill="none"
+      stroke="#f43f5e" stroke-width="1.8" stroke-opacity="0.70"/>
+    <!-- White-hot hairline -->
+    <ellipse cx="512" cy="512" rx="286" ry="76" fill="none"
+      stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.20"/>
+
+    <!-- Electron 1 — Crimson — (710, 565) -->
+    <circle cx="710" cy="565" r="38" fill="#f43f5e" opacity="0.04" filter="url(#f80)"/>
+    <circle cx="710" cy="565" r="22" fill="#f43f5e" opacity="0.14" filter="url(#f45)"/>
+    <circle cx="710" cy="565" r="13" fill="#f43f5e" opacity="0.45" filter="url(#f22)"/>
+    <circle cx="710" cy="565" r="7"  fill="#f43f5e" opacity="0.88" filter="url(#f10)"/>
+    <circle cx="710" cy="565" r="4"  fill="#ff9fb0" opacity="0.95" filter="url(#f5)"/>
+    <circle cx="710" cy="565" r="2.5" fill="#ffffff" opacity="0.98"/>
+
+    <!-- ════════════════════════════════════════════
+         ORBIT 2 — 60° rotated — Cyan #22d3ee
+         Electron at (401, 268) — upper-left
+         ════════════════════════════════════════════ -->
+
+    <ellipse cx="512" cy="512" rx="296" ry="80" fill="none"
+      stroke="#22d3ee" stroke-width="55" stroke-opacity="0.040"
+      filter="url(#f45)" transform="rotate(60 512 512)"/>
+    <ellipse cx="512" cy="512" rx="290" ry="78" fill="none"
+      stroke="#22d3ee" stroke-width="18" stroke-opacity="0.20"
+      filter="url(#f22)" transform="rotate(60 512 512)"/>
+    <ellipse cx="512" cy="512" rx="288" ry="77" fill="none"
+      stroke="#22d3ee" stroke-width="6"  stroke-opacity="0.46"
+      filter="url(#f10)" transform="rotate(60 512 512)"/>
+    <ellipse cx="512" cy="512" rx="286" ry="76" fill="none"
+      stroke="#22d3ee" stroke-width="1.8" stroke-opacity="0.65"
+      transform="rotate(60 512 512)"/>
+    <ellipse cx="512" cy="512" rx="286" ry="76" fill="none"
+      stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.16"
+      transform="rotate(60 512 512)"/>
+
+    <!-- Electron 2 — Cyan — (401, 268) -->
+    <circle cx="401" cy="268" r="38" fill="#22d3ee" opacity="0.038" filter="url(#f80)"/>
+    <circle cx="401" cy="268" r="22" fill="#22d3ee" opacity="0.13" filter="url(#f45)"/>
+    <circle cx="401" cy="268" r="13" fill="#22d3ee" opacity="0.42" filter="url(#f22)"/>
+    <circle cx="401" cy="268" r="7"  fill="#22d3ee" opacity="0.88" filter="url(#f10)"/>
+    <circle cx="401" cy="268" r="4"  fill="#a5f3fc" opacity="0.95" filter="url(#f5)"/>
+    <circle cx="401" cy="268" r="2.5" fill="#ffffff" opacity="0.98"/>
+
+    <!-- ════════════════════════════════════════════
+         ORBIT 3 — 120° rotated — Violet #a855f7
+         Electron at (445, 724) — lower-center-left
+         ════════════════════════════════════════════ -->
+
+    <ellipse cx="512" cy="512" rx="296" ry="80" fill="none"
+      stroke="#a855f7" stroke-width="55" stroke-opacity="0.040"
+      filter="url(#f45)" transform="rotate(120 512 512)"/>
+    <ellipse cx="512" cy="512" rx="290" ry="78" fill="none"
+      stroke="#a855f7" stroke-width="18" stroke-opacity="0.20"
+      filter="url(#f22)" transform="rotate(120 512 512)"/>
+    <ellipse cx="512" cy="512" rx="288" ry="77" fill="none"
+      stroke="#a855f7" stroke-width="6"  stroke-opacity="0.46"
+      filter="url(#f10)" transform="rotate(120 512 512)"/>
+    <ellipse cx="512" cy="512" rx="286" ry="76" fill="none"
+      stroke="#a855f7" stroke-width="1.8" stroke-opacity="0.65"
+      transform="rotate(120 512 512)"/>
+    <ellipse cx="512" cy="512" rx="286" ry="76" fill="none"
+      stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.16"
+      transform="rotate(120 512 512)"/>
+
+    <!-- Electron 3 — Violet — (445, 724) -->
+    <circle cx="445" cy="724" r="38" fill="#a855f7" opacity="0.038" filter="url(#f80)"/>
+    <circle cx="445" cy="724" r="22" fill="#a855f7" opacity="0.13" filter="url(#f45)"/>
+    <circle cx="445" cy="724" r="13" fill="#a855f7" opacity="0.42" filter="url(#f22)"/>
+    <circle cx="445" cy="724" r="7"  fill="#a855f7" opacity="0.88" filter="url(#f10)"/>
+    <circle cx="445" cy="724" r="4"  fill="#d8b4fe" opacity="0.95" filter="url(#f5)"/>
+    <circle cx="445" cy="724" r="2.5" fill="#ffffff" opacity="0.98"/>
+
+    <!-- ════════════════════════════════════════════
+         NUCLEUS — layered bloom → solid core
+         ════════════════════════════════════════════ -->
+
+    <!-- Ultra-wide nucleus aura -->
+    <circle cx="512" cy="512" r="160" fill="#f43f5e" opacity="0.032" filter="url(#f80)"/>
+    <!-- Wide glow -->
+    <circle cx="512" cy="512" r="95"  fill="#f43f5e" opacity="0.065" filter="url(#f80)"/>
+    <!-- Mid glow A -->
+    <circle cx="512" cy="512" r="65"  fill="#f43f5e" opacity="0.13" filter="url(#f45)"/>
+    <!-- Mid glow B -->
+    <circle cx="512" cy="512" r="42"  fill="#f43f5e" opacity="0.26" filter="url(#f22)"/>
+    <!-- Tight glow -->
+    <circle cx="512" cy="512" r="26"  fill="#ff5577" opacity="0.72" filter="url(#f10)"/>
+    <!-- Inner bright -->
+    <circle cx="512" cy="512" r="16"  fill="#f43f5e" opacity="0.95" filter="url(#f5)"/>
+    <!-- Solid nucleus body -->
+    <circle cx="512" cy="512" r="14"  fill="#f43f5e"/>
+    <!-- Hot pink shell -->
+    <circle cx="512" cy="512" r="9"   fill="#ff7a94"/>
+    <!-- White-hot core -->
+    <circle cx="512" cy="512" r="4.5" fill="#ffffff" opacity="0.96"/>
+    <!-- True singularity -->
+    <circle cx="512" cy="512" r="1.8" fill="#ffffff"/>
+
+    <!-- ── Diffraction spikes (stellar nucleus feel) ── -->
+    <!-- Horizontal -->
+    <rect x="180" y="509.5" width="664" height="5"
+      fill="url(#spikeH)" opacity="0.20" filter="url(#f2)"/>
+    <!-- Vertical -->
+    <rect x="509.5" y="180" width="5" height="664"
+      fill="url(#spikeV)" opacity="0.16" filter="url(#f2)"/>
+
+    <!-- ── Vignette ── -->
+    <rect width="1024" height="1024" fill="url(#vig)"/>
+
+  </g>
+</svg>
