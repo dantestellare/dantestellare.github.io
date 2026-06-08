@@ -17,7 +17,7 @@ My goal is not just to learn, but to synthesize: to merge the rigor of **Astroph
 
 Just remember: I am a beginner! I will make mistakes, probably many over time, but I am open to learning and correcting myself. This is where I document my growth and discoveries, who knows what the future will bring?
 
-![Suit Head Shot](/images/lab_genesis_profile.JPG)
+![Suit Head Shot](/images/about_profile.jpg)
 *If I have seen further, it is by standing upon the shoulders of giants.*
 
 ---

@@ -5,7 +5,7 @@ tags: ["Lab", "Physics", "Simulation"]
 author: "Dante"
 draft: false
 cover:
-    image: "images/lab_profile.JPG" 
+    image: "images/lab_genesis_profile.JPG" 
     alt: "Introductory Profile Picture"
     caption: "Meet Dante, your fellow researcher and learner."
     relative: false
